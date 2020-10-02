@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <title>My Form</title>
+</head>
+
+<body>
+    <form method="GET" action="http://www.randyconnolly.com/tests/process.php">
+        <h1>Customer Registration</h1>
+        <h3>1. User Info</h3>
+        <hr>
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="First Name" name="first"></td>
+                <td><input type="text" placeholder="Last Name" name="last"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Email</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="mail" placeholder="Format for Email is xxx@yyy.zzz" name="email"
+                        style="width: 200px"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>Password Repeat</td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="at least 8 characters" name="password"></td>
+                <td><input type="password" placeholder="at least 8 characters" name="password"></td>
+            </tr>
+        </table>
+
+
+        <h3>2. Location</h3>
+        <hr>
+        <table>
+            <tr>
+                <td colspan="2">Address</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" id="address" name="address" style="width: 200px"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>State</td>
+                <td>Zip</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="city" name="city"></td>
+                <td><input type="text" id="state" name="state"></td>
+                <td><input type="text" id="zip" name="zip"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td>Country</td>
+            </tr>
+            <tr>
+                <td><input type="tel" id="phone" placeholder="xxx-xxx-xxxx" name="phone"></td>
+                <td><select name="Country" id="Country">
+                        <option value="Canada">Canada</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="United States">Unnited States</option>
+                        <option value="India">India</option>
+                        <option value="China">China</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Continent</td>
+            </tr>
+            <tr>
+                <td> <input type="radio" name="continent" value="1">
+                    <label for="North America">North America</label><br>
+                    <input type="radio" name="continent" value="2">
+                    <label for="South America">South America</label><br>
+                    <input type="radio" name="continent" value="3">
+                    <label for="Europe">Europe</label>
+                </td>
+            </tr>
+        </table>
+
+        <h3>3. Personal Details</h3>
+        <hr>
+        <table>
+            <tr>
+                <td>Birth Day</td>
+                <td>Favorite Color</td>
+            </tr>
+            <tr>
+                <td><input type="date" id="birthday" name="birthday"></td>
+                <td><input type="color" id="favcolor" name="favcolor"></td>
+            </tr>
+            <tr>
+                <td>Interest in Art</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Minimal">Minimal</label>
+                    <input type="range" id="volume" name="interest" min="0" max="20">
+                    <label for="Love it!">Love it!</label>
+                </td>
+            </tr>
+        </table>
+        <h3>4. All Done</h3>
+        <hr>
+        <table>
+            <tr>
+                <td>
+                    <input type="checkbox" name="termsAccept" value="agree"> I agree to the <a href="#">Terms of the Site</a>
+                </td>
+            </tr>
+        </table>
+        <button id="close-image" type="submit"><img src="button_ok.png">Sign me up!</button>
+    </form>
+</body>
+
+</html>
