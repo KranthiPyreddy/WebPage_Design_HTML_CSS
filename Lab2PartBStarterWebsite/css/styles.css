@@ -1,0 +1,125 @@
+body, header, div, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', "Times New Roman", serif;
+}
+header h1, header h2 {
+    color: white;
+}
+header h1 {
+    font-size: 38px;
+}
+header h2 {
+    font-size: 36px;
+    padding-left: 80px;
+}
+header span {
+    font-size: 24px;
+    padding: 9px;
+    padding-left: 250px;
+}
+header span a:link ,header span a:visited{
+    color: white;  
+    border: solid 1px white; 
+}
+
+.banner--title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+.highlights--media {
+    float: left;
+}
+.highlights--text {
+    width: 55%;
+    
+}
+.highlights--button {
+    color: white;
+    text-align: center;
+    float: right;
+    background-color: orange;
+    width: 100px;
+    height: 22px;
+    text-decoration: none;
+}
+.highlights--container {
+    white-space: pre-line;
+}
+.banner {
+    width: 100%;
+    opacity: 1;
+}
+.mosaic {
+    position: relative;
+}
+
+.mosaic-item {
+    position: absolute;
+}
+
+.mosaic--a {
+    top: 0;
+    left: 0;
+}
+
+.mosaic--b {
+    top: 0;
+    left: 590px;
+}
+
+.mosaic--c {
+    top: 200px;
+    left: 590px;
+}
+
+.mosaic--d {
+    top: 0;
+    left: 885px;
+}
+
+.mosaic--e {
+    top: 400px;
+    left: 0;
+}
+
+.mosaic--f {
+    top: 400px;
+    left: 295px;
+}
+
+.mosaic--g {
+    top: 400px;
+    left: 590px;
+}
+
+.mosaic--h {
+    top: 400px;
+    left: 885px;
+}
+
+.mosaic--i {
+    top: 800px;
+    left: 0;
+}
+
+.mosaic--j {
+    top: 600px;
+    left: 295px;
+}
+
+.mosaic--k {
+    top: 800px;
+    left: 885px;
+}
+
+article {
+    margin-right: 10%;
+    align-items: center;
+    margin-left: 10%;
+}
