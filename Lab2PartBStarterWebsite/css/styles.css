@@ -34,10 +34,13 @@ header span a:link ,header span a:visited{
 }
 .highlights--media {
     float: left;
+    width: 50%;
 }
 .highlights--text {
     float: right;
+    width: 50%;
 }
+
 .highlights--button {
     color: white;
     text-align: center;
@@ -58,7 +61,7 @@ header span a:link ,header span a:visited{
 }
 .mosaic {
     position: relative;
-    top: 235px;
+    top: 265px;
 }
 
 .mosaic-item {
